@@ -1,0 +1,586 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 24,
+    "passes": 0,
+    "pending": 0,
+    "failures": 24,
+    "start": "2021-11-16T20:19:37.376Z",
+    "end": "2021-11-16T20:19:37.590Z",
+    "duration": 214
+  },
+  "tests": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/ActorsTest.js:24:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Actors Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Actors Page'\n    at Context.<anonymous> (test/ActorsTest.js:28:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:32:54)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:37:39)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "contains a <NavBar /> component",
+      "fullTitle": "App contains a <NavBar /> component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/AppTest.js:20:46)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/\">",
+      "fullTitle": "App contains a <Route path=\"/\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:26:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/actors\">",
+      "fullTitle": "App contains a <Route path=\"/actors\">",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:32:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/directors\">",
+      "fullTitle": "App contains a <Route path=\"/directors\">",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:38:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/movies\">",
+      "fullTitle": "App contains a <Route path=\"/movies\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:44:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/DirectorsTest.js:23:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Directors Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Directors Page'\n    at Context.<anonymous> (test/DirectorsTest.js:27:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/DirectorsTest.js:31:54)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/DirectorsTest.js:36:42)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/HomeTest.js:20:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Home Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Home Page'\n    at Context.<anonymous> (test/HomeTest.js:24:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/MoviesTest.js:23:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Movies Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Movies Page'\n    at Context.<anonymous> (test/MoviesTest.js:27:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/MoviesTest.js:31:54)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/MoviesTest.js:36:39)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:27:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:33:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:39:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:45:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/ActorsTest.js:24:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Actors Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Actors Page'\n    at Context.<anonymous> (test/ActorsTest.js:28:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:32:54)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:37:39)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "contains a <NavBar /> component",
+      "fullTitle": "App contains a <NavBar /> component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/AppTest.js:20:46)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/\">",
+      "fullTitle": "App contains a <Route path=\"/\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:26:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/actors\">",
+      "fullTitle": "App contains a <Route path=\"/actors\">",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:32:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/directors\">",
+      "fullTitle": "App contains a <Route path=\"/directors\">",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:38:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "contains a <Route path=\"/movies\">",
+      "fullTitle": "App contains a <Route path=\"/movies\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:952:21)\n    at Context.<anonymous> (test/AppTest.js:44:18)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “props” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/DirectorsTest.js:23:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Directors Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Directors Page'\n    at Context.<anonymous> (test/DirectorsTest.js:27:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/DirectorsTest.js:31:54)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/DirectorsTest.js:36:42)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/HomeTest.js:20:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Home Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Home Page'\n    at Context.<anonymous> (test/HomeTest.js:24:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/MoviesTest.js:23:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Movies Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Movies Page'\n    at Context.<anonymous> (test/MoviesTest.js:27:50)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/MoviesTest.js:31:54)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 3",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "3",
+        "stack": "AssertionError: expected 0 to equal 3\n    at Context.<anonymous> (test/MoviesTest.js:36:39)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:27:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:33:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:39:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:45:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    }
+  ],
+  "passes": []
+}
